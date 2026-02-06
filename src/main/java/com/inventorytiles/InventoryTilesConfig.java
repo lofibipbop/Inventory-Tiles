@@ -6,7 +6,7 @@ import net.runelite.client.config.ConfigItem;
 
 import java.awt.Color;
 
-@ConfigGroup("example")
+@ConfigGroup("inventory-tiles")
 public interface InventoryTilesConfig extends Config
 {
 	enum DrawMode
@@ -34,7 +34,7 @@ public interface InventoryTilesConfig extends Config
 
 	default Color tileColor()
 	{
-		return new Color(255, 255, 255 ,60);
+		return new Color(255, 255, 255, 60);
 	}
 
 	@ConfigItem(
