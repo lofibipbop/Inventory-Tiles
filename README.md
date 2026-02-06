@@ -1,4 +1,2 @@
 # Inventory Tiles
-Shows tiles on each inventory slot
-
-Contains options to show the outlines of tiles or to fill them in as well as changing the color and opacity
+This plugin shows tiles on each inventory slot. By default it shows the outlines of each tile in white; however, there are options to change the color or fill the tiles instead.
